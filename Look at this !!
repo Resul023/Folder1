@@ -16,3 +16,26 @@
                 }
             }
             Console.WriteLine(max);*/
+            
+            
+            
+            
+            
+            /* string lectureTool = Console.ReadLine();
+            int lectureSize = Convert.ToInt32(lectureTool);
+            string[] lecture = new string[lectureSize];
+            int maxWordSize = 0;
+            string maxWord = "";
+            for (int i = 0; i < lectureSize; i++)
+            {
+                lecture[i] = Console.ReadLine();
+            }
+            for (int i = 0; i < lecture.Length; i++)
+            {
+                if (lecture[i].Length>maxWordSize)
+                {
+                    maxWordSize = lecture[i].Length;
+                    maxWord = lecture[i];
+                }
+            }
+            Console.WriteLine(maxWord);*/
