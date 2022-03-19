@@ -1,0 +1,25 @@
+Console.WriteLine("Enter your number:");
+            string numberTool = Console.ReadLine();
+            int number = Convert.ToInt32(numberTool);
+            int check = numberReverse(number);
+            Console.WriteLine(check);
+            
+              int count = 0;
+            int numberOne = number;
+            int countTool = 0;
+            int ten = 1;
+            int qaliq = 0;
+            int result = 0;
+            while (number > 9)
+            {
+                number = number / 10;
+                count++;
+            }
+            while (countTool < count)
+            {
+                ten *= 10;
+                countTool++;
+            }
+            qaliq = numberOne % 10;
+            result = (qaliq * ten) + numberOne / 10;
+            return result;
